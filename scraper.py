@@ -15,8 +15,8 @@ def scrape_mixed_data():
     # --- PART A: SCRAPE GLOBAL CONTENT (Using the working Base URLs) ---
     # We use .build() because it finds CURRENT live links automatically
     sources = [
-        ('https://www.espn.com/nfl', 'sports'),         # Global Sports (Worked before)
-        ('https://www.pbs.org/newshour/politics', 'politics') # Global Politics (Worked before)
+        ('https://www.espn.com/nfl', 'sports'),         # Global Sports 
+        ('https://www.pbs.org/newshour/politics', 'politics') # Global Politics 
     ]
     
     print("Step 1: Scraping live Global content...")
@@ -37,7 +37,6 @@ def scrape_mixed_data():
             except: continue
             
     # --- PART B: INJECT INDIAN CONTENT (Hardcoded to avoid 403 Errors) ---
-    # These are the articles you requested (Indian Sports & Politics)
     print("\nStep 2: Injecting Indian Context (Manual Data)...")
     
     indian_content = [
