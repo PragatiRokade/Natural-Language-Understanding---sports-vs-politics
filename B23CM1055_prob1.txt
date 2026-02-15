@@ -1,0 +1,13 @@
+Reflection on Naturalness: Reggy++ Chatbot
+The Reggy++ chatbot serves as a functional demonstration of rule-based natural language understanding using regular expressions. While it successfully performs specific tasks such as age calculation and mood detection, its overall "naturalness" is limited by its deterministic nature. In a human-to-human conversation, context and semantic meaning drive the dialogue; however, Reggy++ relies entirely on pattern matching.   
+
+Strengths of Regex-based Interaction
+The primary strength of using regular expressions (regex) in this chatbot is the high level of precision for structured data extraction. As demonstrated in the execution logs, the chatbot effectively handles a wide variety of date formats—including space-separated numeric dates (e.g., "31 12 2010" in Run 8), hyphenated dates (e.g., "16-01-84" in Run 3), and Month-Day-Year variations (e.g., "April 4 2003" in Run 2). The use of quantifiers (like +) allows the bot to remain robust against minor typing errors and "stretched" words, such as "amazinggggg" (Run 7) or "anxiousss" (Run 4), which would fail in a simple string-comparison system. This makes regex an excellent tool for validation and extracting specific entities like surnames from full names.   
+
+Limitations and Failure Cases
+Despite its strengths, the chatbot feels "unnatural" because it cannot understand intent or complex sentence structures. It lacks a memory of previous turns, meaning every response is an isolated reaction to a specific pattern. A significant limitation is its inability to handle truly ambiguous or nonsensical inputs. For example, in Run 11, when the user provided the birthday "0 0 0," the bot correctly identified a failure because it did not match valid date logic. Similarly, when the user responded with "gummy bear" or "spidery :p" (Run 10), the chatbot defaulted to a generic fallback because the input did not contain any keywords defined in the positive or negative regex buckets.   
+
+Furthermore, the chatbot is highly sensitive to the order of numeric dates if they are ambiguous (e.g., "06 07 99"). Without advanced logic to check which value exceeds 12, the bot must "guess" between Day-Month or Month-Day formats. These failure cases highlight that while regex is powerful for pattern spotting, it cannot replace the nuanced semantic understanding provided by modern Large Language Models (LLMs).   
+
+Conclusion
+Reggy++ is a robust tool for structured tasks, but it remains a "reactive" system rather than a "conversational" one. Its naturalness is high for the specific domains it was programmed for, but it breaks down immediately when the user provides creative, invalid, or non-standard linguistic input.

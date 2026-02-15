@@ -1,0 +1,141 @@
+### Run 1
+PS C:\Users\praga\OneDrive\Desktop\nlu> python B23CM1055_prob1.py
+Reggy++: Hello! What is your full name?
+User: Riya Sinha
+Reggy++: Nice to meet you, Sinha!
+Reggy++: When were you born?
+User: 26 May 1998
+Reggy++: So you are 27 years old!
+Reggy++: How are you feeling today?
+User: im feeling very happy! 
+Reggy++: That's wonderful to hear!
+
+
+### Run 2
+PS C:\Users\praga\OneDrive\Desktop\nlu> python B23CM1055_prob1.py
+Reggy++: Hello! What is your full name?
+User: Gopal Ram
+Reggy++: Nice to meet you, Ram!
+Reggy++: When were you born?
+User: April 4 2003
+Reggy++: So you are 22 years old!
+Reggy++: How are you feeling today?
+User: upset       
+Reggy++: I'm sorry. I hope your day gets better!
+
+
+### Run 3
+PS C:\Users\praga\OneDrive\Desktop\nlu> python B23CM1055_prob1.py
+Reggy++: Hello! What is your full name?
+User: Anu Sharma
+Reggy++: Nice to meet you, Sharma!
+Reggy++: When were you born?
+User: 16-01-84    
+Reggy++: So you are 42 years old!
+Reggy++: How are you feeling today?
+User: im feeling just fine.
+Reggy++: That's wonderful to hear!
+
+
+### Run 4
+PS C:\Users\praga\OneDrive\Desktop\nlu> python B23CM1055_prob1.py
+Reggy++: Hello! What is your full name?
+User: Smita Patel
+Reggy++: Nice to meet you, Patel!
+Reggy++: When were you born?
+User: 25 December 04
+Reggy++: So you are 21 years old!
+Reggy++: How are you feeling today?
+User: im very anxiousss
+Reggy++: I'm sorry. I hope your day gets better!
+
+
+### Run 5
+PS C:\Users\praga\OneDrive\Desktop\nlu> python B23CM1055_prob1.py
+Reggy++: Hello! What is your full name?
+User: Hetal       
+Reggy++: Nice to meet you, Hetal!
+Reggy++: When were you born?
+User: 7 feb 01
+Reggy++: So you are 25 years old!
+Reggy++: How are you feeling today?
+User: fantastic :)
+Reggy++: That's wonderful to hear!
+
+
+### Run 6
+PS C:\Users\praga\OneDrive\Desktop\nlu> python B23CM1055_prob1.py
+Reggy++: Hello! What is your full name?
+User: Pragati Rokade
+Reggy++: Nice to meet you, Rokade!
+Reggy++: When were you born?
+User: october 2 2005
+Reggy++: So you are 20 years old!
+Reggy++: How are you feeling today?
+User: im tired :(
+Reggy++: I'm sorry. I hope your day gets better!
+
+
+### Run 7
+PS C:\Users\praga\OneDrive\Desktop\nlu> python B23CM1055_prob1.py
+Reggy++: Hello! What is your full name?
+User: Peshal Pathania 
+Reggy++: Nice to meet you, Pathania!
+Reggy++: When were you born?
+User: 13 sept 96
+Reggy++: So you are 29 years old!
+Reggy++: How are you feeling today?
+User: amazinggggg
+Reggy++: That's wonderful to hear!
+
+
+### Run 8
+PS C:\Users\praga\OneDrive\Desktop\nlu> python B23CM1055_prob1.py
+Reggy++: Hello! What is your full name?
+User: Sheldon Cooper
+Reggy++: Nice to meet you, Cooper!
+Reggy++: When were you born?
+User: 31 12 2010    
+Reggy++: So you are 15 years old!
+Reggy++: How are you feeling today?
+User: im worried
+Reggy++: I'm sorry. I hope your day gets better!
+
+
+### Run 9
+PS C:\Users\praga\OneDrive\Desktop\nlu> python B23CM1055_prob1.py
+Reggy++: Hello! What is your full name?
+User: Nikhil Chawla
+Reggy++: Nice to meet you, Chawla!
+Reggy++: When were you born?
+User: 6 17 99
+Reggy++: So you are 26 years old!
+Reggy++: How are you feeling today?
+User: im very cheerful, thank you!
+Reggy++: That's wonderful to hear!
+
+
+### Run 10
+PS C:\Users\praga\OneDrive\Desktop\nlu> python B23CM1055_prob1.py
+Reggy++: Hello! What is your full name?
+User: SPider man
+Reggy++: Nice to meet you, man!
+Reggy++: When were you born?
+User: 26 Jan 00 
+Reggy++: So you are 26 years old!
+Reggy++: How are you feeling today?
+User: spidery :p
+Reggy++: I understand. Thanks for sharing that with me.
+
+
+### Run 11 - Failure/ Ambiguity
+PS C:\Users\praga\OneDrive\Desktop\nlu> python B23CM1055_prob1.py
+Reggy++: Hello! What is your full name?
+User: Hugh Jackson
+Reggy++: Nice to meet you, Jackson!
+Reggy++: When were you born?
+User: 0 0 0
+Reggy++: Interesting format! I couldn't quite calculate the age.
+Reggy++: How are you feeling today?
+User: gummy bear
+Reggy++: I understand. Thanks for sharing that with me.
